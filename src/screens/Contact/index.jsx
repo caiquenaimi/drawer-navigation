@@ -1,9 +1,10 @@
 import { View, Text } from 'react-native'
+import Title from '../../components/Title'
 
 export default function Contact() {
   return (
     <View>
-      <Text>index</Text>
+        <Title text="Contact" />
     </View>
   )
 }

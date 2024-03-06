@@ -1,10 +1,10 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from "react-native";
+import Title from "../../components/Title";
 
 export default function Profile() {
   return (
     <View>
-      <Text>index</Text>
+      <Title text="Profile" />
     </View>
-  )
+  );
 }
